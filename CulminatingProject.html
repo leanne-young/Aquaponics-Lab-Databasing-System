@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+
+	h1 {
+		color: green;
+	}
+
+	h3 {
+		color: red;
+	}
+
+	body {
+		background-color: lightblue;
+	}
+
+	input[type="submit"], input[type="reset"] {
+                        background-color: #4CAF50;
+                        border: 3px solid black;
+                        padding: 7px 7px;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-family: trebuchet ms;
+                        margin: 10px 2px 0px 24px;
+                        width: 8em; height: 2.5em;
+                }
+
+	
+
+</style>
+</head>
+
+
+<!-- foreach ... as $c, print $c --> 
+
+
+<body>
+
+<!--select * from Aquaponics_Data order by SampleDateTime desc limit 100;-->
+
+<form action="/CulminatingProject.php" method="post">
+
+<h1> Greenhouse Data</h1>
+
+<h3>Temperature Sensors</h3>
+<input type="checkbox" name="sensor" value="Sensor 1"> Sensor 1<br>
+<input type="checkbox" name="sensor" value="Sensor 7"> Sensor 7<br>
+<input type="checkbox" name="sensor" value="Sensor 8"> Sensor 8<br>
+<input type="checkbox" name="sensor" value="Sensor 9"> Sensor 9<br>
+<input type="checkbox" name="sensor" value="Sensor 10"> Sensor 10<br>
+<input type="checkbox" name="sensor" value="Sensor 11"> Sensor 11<br>
+<input type="checkbox" name="sensor" value="Sensor 12"> Sensor 12<br>
+<input type="checkbox" name="sensor" value="Sensor 13"> Sensor 13<br>
+<input type="checkbox" name="sensor" value="Sensor 14"> Sensor 14<br>
+<input type="checkbox" name="sensor" value="Sensor 19"> Sensor 19<br>
+<input type="checkbox" name="sensor" value="Sensor 20"> Sensor 20<br>
+<input type="checkbox" name="sensor" value="Sensor 21"> Sensor 21<br>
+
+<h3>Oxidation Reduction Potential</h3>
+<input type="checkbox" name="sensor" value="Sensor 2"> Sensor 2<br>
+
+<h3>Disolved Oxygen</h3>
+<input type="checkbox" name="sensor" value="Sensor 4"> Sensor 4<br>
+
+<h3>PH Balance</h3>
+<input type="checkbox" name="sensor" value="Sensor 5"> Sensor 5<br>
+<input type="checkbox" name="sensor" value="Sensor 16"> Sensor 16<br>
+<input type="checkbox" name="sensor" value="Sensor 17"> Sensor 17<br>
+<input type="checkbox" name="sensor" value="Sensor 18"> Sensor 18<br>
+
+<input type="submit" value="Submit">
+<input type="reset" value"reset">
+</form>
+
+</body>
+</html>
